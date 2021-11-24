@@ -1,11 +1,12 @@
 import os
 import struct
 import numpy as np
+import pickle
 
-try:
-    import pickle
-except ImportError:
-    import cPickle as pickle
+# try:
+#     import pickle
+# except ImportError:
+#     import cPickle as pickle
     
 
 def load_mnist(dataset = "training", path = "."):
